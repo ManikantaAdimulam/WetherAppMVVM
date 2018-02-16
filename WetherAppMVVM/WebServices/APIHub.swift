@@ -17,7 +17,7 @@ import Foundation
         }
         /// API Key
         var appId: String {
-            return "appid=5c2749a4245fd55a7b532de848d8dad2"
+            return "appid=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         }
         /// API
         var API: String {
