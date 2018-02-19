@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4740007F2037049000116BD3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4740007E2037048D00116BD3 /* UIViewController+Extension.swift */; };
+		473A24C3203AF7E6006F68B9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A24C2203AF7E5006F68B9 /* UIViewController+Extension.swift */; };
 		4740008120370F9900116BD3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4740008020370F9900116BD3 /* .swiftlint.yml */; };
 		475B80552035ABBD00A5D1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475B80542035ABBD00A5D1B3 /* AppDelegate.swift */; };
 		475B80572035ABBD00A5D1B3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475B80562035ABBD00A5D1B3 /* MainVC.swift */; };
@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		1F2218C410172E2886439BB6 /* Pods-WetherAppMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WetherAppMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WetherAppMVVM/Pods-WetherAppMVVM.debug.xcconfig"; sourceTree = "<group>"; };
-		4740007E2037048D00116BD3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "../../../../Projects/IOS_ZaferB/Source/ZaferB/HelperClasses/Extentions/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		473A24C2203AF7E5006F68B9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		4740008020370F9900116BD3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		475B80512035ABBD00A5D1B3 /* WetherAppMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherAppMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475B80542035ABBD00A5D1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 		47843049203693C5002E18B5 /* HelperClasses */ = {
 			isa = PBXGroup;
 			children = (
-				4740007E2037048D00116BD3 /* UIViewController+Extension.swift */,
+				473A24C2203AF7E5006F68B9 /* UIViewController+Extension.swift */,
 				4784305420369C86002E18B5 /* Enums.swift */,
 				47F93E012036D34A00710664 /* Extensions.swift */,
 			);
@@ -341,8 +341,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4784304E2036950F002E18B5 /* APIHub.swift in Sources */,
+				473A24C3203AF7E6006F68B9 /* UIViewController+Extension.swift in Sources */,
 				4784304C203694A0002E18B5 /* NetworkManager.swift in Sources */,
-				4740007F2037049000116BD3 /* UIViewController+Extension.swift in Sources */,
 				47F93E042036DD0A00710664 /* CityModal.swift in Sources */,
 				47F93E062036E3D200710664 /* WeatherModal.swift in Sources */,
 				475B80572035ABBD00A5D1B3 /* MainVC.swift in Sources */,
