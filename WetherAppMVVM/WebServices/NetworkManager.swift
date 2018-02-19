@@ -2,8 +2,8 @@
 //  NetworkManager.swift
 //  PetBubs
 //
-//  Created by Hardik Kothari on 28/04/17.
-//  Copyright © 2017 Credencys Solutions Inc. All rights reserved.
+//  Created by Manikanta on 28/04/17.
+//  Copyright © 2017 Manikanta. All rights reserved.
 //
 
 import UIKit

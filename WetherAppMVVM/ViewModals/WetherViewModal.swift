@@ -3,7 +3,7 @@
 //  WetherAppMVVM
 //
 //  Created by manikanta on 2/16/18.
-//  Copyright © 2018 Credencys. All rights reserved.
+//  Copyright © 2018 Manikanta. All rights reserved.
 //
 
 import Foundation
@@ -33,7 +33,7 @@ class WeatherViewModal {
         for (key, value) in param {
             parameters += "&" + key + "=" + "\(value)" 
         }
-        parameters += "&cnt=7"
+        parameters += "&cnt=40"
         return APIHub.shared.API+parameters
     }
 }

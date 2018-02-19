@@ -3,7 +3,7 @@
 //  WetherAppMVVM
 //
 //  Created by manikanta on 2/15/18.
-//  Copyright © 2018 Credencys. All rights reserved.
+//  Copyright © 2018 Manikanta. All rights reserved.
 //
 
 import UIKit
@@ -54,7 +54,7 @@ class MainVC: UIViewController {
     /// Getting weather from API
     func getWeatherData() {
         showProgressView()
-        weatherViewModal.getWeatherData(param: ["lat": 23.0120, "lon": 72.5108], success: { (response) in
+        weatherViewModal.getWeatherData(param: ["lat": 23.0120, "lon": -72.5108], success: { (response) in
             self.hideProgressView()
             self.setupDashBoard(data: response)
             DispatchQueue.main.async {

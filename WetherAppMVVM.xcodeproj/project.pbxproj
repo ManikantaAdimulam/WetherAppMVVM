@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4740007F2037049000116BD3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4740007E2037048D00116BD3 /* UIViewController+Extension.swift */; };
+		4740008120370F9900116BD3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4740008020370F9900116BD3 /* .swiftlint.yml */; };
 		475B80552035ABBD00A5D1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475B80542035ABBD00A5D1B3 /* AppDelegate.swift */; };
 		475B80572035ABBD00A5D1B3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475B80562035ABBD00A5D1B3 /* MainVC.swift */; };
 		475B805A2035ABBD00A5D1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475B80582035ABBD00A5D1B3 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		1F2218C410172E2886439BB6 /* Pods-WetherAppMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WetherAppMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WetherAppMVVM/Pods-WetherAppMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		4740007E2037048D00116BD3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "../../../../Projects/IOS_ZaferB/Source/ZaferB/HelperClasses/Extentions/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		4740008020370F9900116BD3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		475B80512035ABBD00A5D1B3 /* WetherAppMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherAppMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475B80542035ABBD00A5D1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		475B80562035ABBD00A5D1B3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		475B80482035ABBC00A5D1B3 = {
 			isa = PBXGroup;
 			children = (
+				4740008020370F9900116BD3 /* .swiftlint.yml */,
 				475B80532035ABBD00A5D1B3 /* WetherAppMVVM */,
 				475B80522035ABBD00A5D1B3 /* Products */,
 				354948D0C77D7CF1D0B8FCFD /* Pods */,
@@ -263,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4740008120370F9900116BD3 /* .swiftlint.yml in Resources */,
 				475B805F2035ABBE00A5D1B3 /* LaunchScreen.storyboard in Resources */,
 				475B805C2035ABBD00A5D1B3 /* Assets.xcassets in Resources */,
 				475B805A2035ABBD00A5D1B3 /* Main.storyboard in Resources */,

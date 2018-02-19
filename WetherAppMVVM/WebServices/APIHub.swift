@@ -3,7 +3,7 @@
 //  WetherAppMVVM
 //
 //  Created by manikanta on 2/16/18.
-//  Copyright © 2018 Credencys. All rights reserved.
+//  Copyright © 2018 Manikanta. All rights reserved.
 //
 
 import Foundation
@@ -17,7 +17,7 @@ import Foundation
         }
         /// API Key
         var appId: String {
-            return "appid=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            return "appid=5c2749a4245fd55a7b532de848d8dad2"
         }
         /// API
         var API: String {
